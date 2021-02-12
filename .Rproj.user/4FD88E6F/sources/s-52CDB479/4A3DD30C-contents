@@ -1,0 +1,3 @@
+test_that("min_max_Works", {
+  expect_lt(ChurnProb(data,15662641),ChurnProb(data,15653251))
+})
